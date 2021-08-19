@@ -1,0 +1,49 @@
+@media (max-width:480px){
+    .header-text{
+        margin-left: 20px;
+        width: 80%;
+    }
+    .text-second{
+        font-size: 30px;
+    }
+    .text-first{
+    font-size: 25px;
+}
+.gallery-text{
+    display: block;
+    width: 90%;
+}
+  h2{
+      text-align: center;
+      margin-top: 15px;
+    }
+    p {
+      margin-top: 20px;
+      font-size: 22px;
+      
+      
+    }
+    .gallery-img {
+      display: block;
+      width: 90%;
+    }
+    .gallery-img img{
+        width: 100%;
+    }
+    .gallery-img div{
+        width: 100%;
+    }
+    .second-img{
+        margin-bottom: 20px;
+    }
+    .first-img{
+        margin-bottom: 4px;
+    }
+    html,body,header{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
