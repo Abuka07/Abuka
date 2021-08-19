@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: #E5E5E5 ;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #E5E5E5 ;
+    display: flex;
+}
+.navbar-brand img{
+    width: 51px;
+    height: 51px;
+}
+.navbar{
+    width: 100%;
+}
+.navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    background: #FFFFFF;
+    border: 1.5px solid #B7B3B3;
+    color: black;
+    border-radius: 0;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.btn:hover{
+    background: white;
+    color: black;
+    border: 1.5px solid #B7B3B3;
+    border-radius: 0;
+}
+#sign-in-btn{
+    color: black;
+}
+#reg-btn{
+    background: #6C63FF;
+    color: white;
+}
+.nav-item{
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+}
+.navbar-brand{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.navbar-brand p{
+    font-weight: 600;
+    font-size: 25px;
+    color: #6C63FF;
+}
+.home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 100px 0 0 60px;
+}
+.home-wrapper{
+    width: 50%;
+    justify-content: center;
+}
+.home-img{
+    justify-content: center;
+}
+.home-hr{
+    width: 52px;
+    border: 2px solid #B7B3B3;
+    background-color:  #B7B3B3 ;
+}
+.home-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 44px;
+    color: #000000;
+}
+.home-info{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.6;
+}
+.home-reg{
+     width: 146px;
+     height: 50px;
+     background: #6C63FF;
+     border: 1.5px solid #353434;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     color: #FFFFFF;
+     margin-right: 20px ;
+ }
+ .home-learn{
+     width: 125px;
+     height: 50px;
+     background: #FFFFFF;
+     border: 1.5px solid #B7B3B3;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     color:#000000;
+ }
