@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*how-works*/
+html, body {
+    height: 100%;
+}
+.how-works {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h2 {
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom:40px ;
+}
+.line {
+    width: 50px;
+    border: 3px solid #B7B3B3;
+    margin-bottom: 40px;
+}
+.how-works-descr {
+    width: 40%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    opacity: 0.6;
+}
+/*owl-caoursel*/
+.owl-carousel {
+    width: 90%;
+    margin: auto;
+}
+.owl-carousel .item {
+    width: 50%;
+    margin: auto;
+}
+.owl-carousel img {
+    margin-bottom: 55px;
+}
+.owl-prev, .owl-next{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 40%;
+    border-radius: 10% !important; 
+    background: #d1d1d1 !important;
+}
+.owl-prev{
+    left: 0;
+}
+.owl-next{
+    right: 0;
+}
+.about-us-text{
+
+    padding-left: 100px;
+}
+.about-us{
+    height: 50%;
+    background: #6F63FF;
+    display: flex;
+    align-items: center;
+}
+h3{
+    width: 10%;
+    font-size: 33px;
+    font-style: italic;
+    color: white;
+    font-weight: lighter;
+}
+.about-us-line{
+    width: 20%;
+    opacity: 0.8;
+    border: 2px solid #FFFFFF;
+}
+.about-us-descr{
+    font-size: 22px;
+    color: white;
+}
+.about-us-item{
+    height: 306px;
+    width: 298px;
+    background-color: white;
+    border-radius: 5%;
+    margin: auto;
+}
+.reviev-user{
+    width: 59px;
+    height: 59px;
+    background-image: url(../img/Ellipse\ 9.png);
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.item-review{
+    width: 218px;
+    height: 175px;
+    font-style: italic;
+    color: #000000;
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px ;
+}
+.user-name{
+    
+    margin-left: 140%;
+    width: 102px;
+    height: 35px;
+    font-size: 20px;
+}
+.user-prof{
+    
+    margin-left: 140%;
+    width: 75px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #787777;
+}
+.reviev-user1{
+    width: 59px;
+    height: 59px;
+    background-image: url(../img/Ellipse\ 10.png);
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.reviev-user2{
+    width: 59px;
+    height: 59px;
+    background-image: url(../img/Ellipse\ 11.png);
+    margin-left: 5%;
+    margin-top: 10%;
+}
